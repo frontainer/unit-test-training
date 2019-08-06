@@ -1,8 +1,6 @@
 export default function validate(val) {
-  // todo
-
-  return {
-    error: false,
-    message: ''
+  if (!val) {
+    return false
   }
+  return true
 }
