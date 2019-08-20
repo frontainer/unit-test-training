@@ -6,6 +6,8 @@
   "scripts": {
     "start": "webpack-dev-server",
     "build": "webpack",
+    "step01": "jest --roots './src/step01'",
+    "step02": "jest --roots './src/step02'",
     "test": "jest",
     "watch": "jest --watch"
   },
